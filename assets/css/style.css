@@ -157,11 +157,11 @@ header.top-header {
 }
 .shows .navbar-nav {
   float: right;
-  margin: 25px 0 0;
+  margin: 15px 0 0;
   color: white;
 }
 .shows h1.logo {
-  margin-top: 7px;
+  margin-top: 0px;
   color: white;
 }
 
@@ -665,4 +665,7 @@ h2.footer-block {
   #header {
     background-size: cover;
   }
+}
+button.navbar-toggle.collapsed {
+  margin-top: 40px;
 }
