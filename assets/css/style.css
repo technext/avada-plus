@@ -168,6 +168,7 @@ header.top-header {
 h1.logo {
   margin-top: 11px;
   color: white;
+  display: inline-flex;
 }
 #header{  
   position: relative;     
