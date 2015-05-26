@@ -101,8 +101,8 @@ h1, h2, h3, h4, h5, h6{
     
 }
 .btn.btn-o-white:hover {
-    /* background: white !important; */
-    /* color: #6a6a6a; */
+    background: white !important;
+    color: #6a6a6a; 
 }
 
 .title-page {
@@ -148,12 +148,14 @@ header.top-header {
   width: 100%;
 }
 .shows {
- background: rgba(43, 62, 81, 0.77); 
+ background: rgba(43, 62, 81, 0.77);
+ transition: all .6s;
 }
 .shows .navbar-default {
   /* background-color: #f8f8f8; */
   /* border-color: #e7e7e7; */
   margin-bottom: 10px;
+  transition: all .6s;
 }
 .shows .navbar-nav {
   float: right;
@@ -540,6 +542,7 @@ ol.carousel-indicators {
 .form-control-white {
     background: rgb(255, 255, 255);
     /* color: black; */
+    padding: 20px 16px !important;
 }
 
 .form-control-white::-webkit-input-placeholder { /* WebKit browsers */
@@ -621,12 +624,15 @@ h2.footer-block {
 }
 .blog-post .fa:hover{
   color: rgb(219, 82, 82);
-  background:white; 
+  background:white;
+  transition: all .6s;
 }
 .social {
   margin-left: 40px;
 }
-
+.social a i{
+  color: #fff;
+}
 /*////////////////////////////////////////////////////////////////////////
 //  11 - Responsive styles
 ///////////////////////////////////////////////////////////////////////*/
@@ -673,6 +679,9 @@ h2.footer-block {
 
   #header {
     background-size: cover;
+  }
+  .service {
+  text-align: center;
   }
 }
 button.navbar-toggle.collapsed {
