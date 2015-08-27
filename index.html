@@ -349,18 +349,19 @@
 							</div>
 							<div class="col-sm-4 blog-post">
 								<h2 class="footer-block">Leave us a message</h2>
-								<form class="" role="form">
+								<form action="contact-form.php" id="contactForm" method="post" name="contactform" class="" role="form">
 									<div class="form-group">
-								    	<input type="text" class="form-control form-control-white" id="subject" placeholder="Your Name" required>
+								    	<input type="text" class="form-control form-control-white" id="name" name="name" placeholder="Your Name" required>
 								  	</div>
 								    <div class="form-group">
-								    	<input type="email" class="form-control form-control-white" id="exampleInputEmail2" placeholder="Enter email" required>
+								    	<input type="email" class="form-control form-control-white" id="email" name="email" placeholder="Enter email" required>
 								    </div>
 								    <div class="form-group">
-								    	<textarea class="form-control form-control-white" placeholder="Write Something" required></textarea>
+								    	<textarea class="form-control form-control-white" id="message" name="massage" placeholder="Write Something" required></textarea>
 								    </div>
+								    <div id="contactFormResponse"></div>
 								    <div class="form-group">
-								    	<input type="submit" class="text-center btn btn-o-white" value="Say Hello">
+								    	<input id="cfsubmit" type="submit" class="text-center btn btn-o-white" value="Say Hello">
 								  	</div>
 								</form>
 							</div>
@@ -413,10 +414,10 @@
 
 
 		<script src="assets/js/jquery-2.1.3.min.js"></script>
-		<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
 		<script src="assets/js/bootstrap.js"></script>
 		<script src="assets/js/jquery.actual.min.js"></script>
 		<script src="assets/js/jquery.scrollTo.min.js"></script>
+		<script src="assets/js/contact.js"></script>
 		<script src="assets/js/script.js"></script>
 		<script src="assets/js/smoothscroll.js"></script>
 		<script type="text/javascript">
